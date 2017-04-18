@@ -9,23 +9,49 @@
 	],
 "creatorBuild": "25813",
 "files": {
+	"\/css\/_semantic.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/build\/css\/_semantic.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/css\/styles.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/build\/css\/styles.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"\/fonts\/icons.eot": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/icons.eot",
+		"oAP": "\/build\/fonts\/icons.eot",
 		"oF": 0
 		},
 	"\/fonts\/icons.otf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/icons.otf",
+		"oAP": "\/build\/fonts\/icons.otf",
 		"oF": 0
 		},
 	"\/fonts\/icons.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/fonts\/icons.svg",
+		"oAP": "\/build\/fonts\/icons.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -34,81 +60,76 @@
 	"\/fonts\/icons.ttf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/icons.ttf",
+		"oAP": "\/build\/fonts\/icons.ttf",
 		"oF": 0
 		},
 	"\/fonts\/icons.woff": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/icons.woff",
+		"oAP": "\/build\/fonts\/icons.woff",
 		"oF": 0
 		},
 	"\/fonts\/icons.woff2": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/icons.woff2",
+		"oAP": "\/build\/fonts\/icons.woff2",
+		"oF": 0
+		},
+	"\/html\/head.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/build\/html\/head.html",
+		"oF": 0
+		},
+	"\/html\/scripts.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/build\/html\/scripts.html",
 		"oF": 0
 		},
 	"\/img\/menu.png": {
 		"ft": 32768,
 		"iS": 598,
 		"oA": 0,
-		"oAP": "\/img\/menu.png",
+		"oAP": "\/build\/img\/menu.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/index.html",
+	"\/index.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/build\/index.html",
 		"oF": 0
+		},
+	"\/js\/jquery.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/build\/js\/jquery.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
 		},
 	"\/js\/scripts.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/scripts-min.js",
+		"oAP": "\/build\/js\/scripts.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/js\/semantic.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/semantic-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/sass\/_semantic.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/_semantic.css",
+		"oAP": "\/build\/js\/semantic.js",
 		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/sass\/styles.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/styles.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
+		"sC": 0,
+		"tS": 0
 		}
 	},
 "hooks": [
@@ -117,9 +138,10 @@
 	},
 "projectAttributes": {
 	"creationDate": 513040678,
-	"displayValue": "web-3-starter-master",
+	"displayValue": "web-3-starter",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-dunnoGirl"
+	"iconImageName": "meme-dunnoGirl",
+	"lastBuiltDate": 514237180
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -374,7 +396,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
-	"buildFolderActive": 0,
+	"buildFolderActive": 1,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
 	"coffeeLintFlags2": {
@@ -1487,7 +1509,7 @@
 			"flagValue": -1
 			},
 		"bitwise": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"boss": {
@@ -1495,7 +1517,7 @@
 			"flagValue": -1
 			},
 		"browser": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"browserify": {
@@ -1511,7 +1533,7 @@
 			"flagValue": -1
 			},
 		"curly": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"debug": {
@@ -1527,11 +1549,11 @@
 			"flagValue": -1
 			},
 		"elision": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"eqeqeq": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"eqnull": {
@@ -1559,7 +1581,7 @@
 			"flagValue": -1
 			},
 		"freeze": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"funcscope": {
@@ -1591,7 +1613,7 @@
 			"flagValue": -1
 			},
 		"jquery": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"lastsemic": {
@@ -1599,7 +1621,7 @@
 			"flagValue": -1
 			},
 		"latedef": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"laxbreak": {
@@ -1651,11 +1673,11 @@
 			"flagValue": -1
 			},
 		"newcap": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"noarg": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"nocomma": {
@@ -1675,7 +1697,7 @@
 			"flagValue": -1
 			},
 		"nonew": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"nonstandard": {
@@ -1683,7 +1705,7 @@
 			"flagValue": -1
 			},
 		"notypeof": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"noyield": {
@@ -1715,7 +1737,7 @@
 			"flagValue": -1
 			},
 		"regexp": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"rhino": {
@@ -1755,11 +1777,11 @@
 			"flagValue": -1
 			},
 		"undef": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"unused": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"varstmt": {
@@ -1843,7 +1865,7 @@
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*-min.css",
+		"autoOutputPathFilenamePattern": "*.css",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
@@ -1887,14 +1909,14 @@
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*-min.js",
+		"autoOutputPathFilenamePattern": "*.js",
 		"autoOutputPathRelativePath": "\/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"minifyOutput": 1,
-		"syntaxCheckerStyle": 1,
+		"syntaxCheckerStyle": 0,
 		"transpilerStyle": 0
 		},
 	"languageDefaultsJSON": {
@@ -1988,11 +2010,11 @@
 		"autoOutputPathRelativePath": "..\/css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 2,
-		"createSourceMap": 0,
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 1
@@ -2226,7 +2248,7 @@
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": ""
+	"websiteRelativeRoot": "\/build"
 	},
 "settingsFileVersion": "3"
 }
